@@ -1,40 +1,7 @@
-.web_logo{
+.logo{
     position: absolute;
     width: 145px;
     height: 31px;
     left: 215px;
     top: 24px;
-
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-
-    letter-spacing: 0.03em;
-
-    color: #2196F3;
-}
-
-.v1{
-    position: absolute;
-    color: #2196F3;
-    height: 31px;
-    left: 190px;
-    top: 24px;
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
-}
-
-.v2{
-    position: absolute;
-    color: #2196F3;
-    height: 31px;
-    left: 199px;
-    top: 24px;
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 26px;
 }
