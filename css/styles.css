@@ -13,7 +13,7 @@ ul{
 
 .body{
     font-family: Roboto, sans-serif;
-    background: white;
+    background: var(--text-color-white);
 }
 
 a {
@@ -25,38 +25,38 @@ h2{
     line-height: 42px;
     /*text-align: center;*/
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--text-color-black);
 }
 
 .page-header{
-    background: #FFFFFF;
+    background: var(--text-color-white);
 }
 
 
 .site-nav a{
     color: var(--text-color-black);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .site-nav a:hover,
 .site-nav a:focus{
-    color: #2196F3;
+    color: var(--bt-second);
 }
 
 .site-nav .link.current{
     color: var(--accent-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
 }
 
 .contacts-nav a{
-    color: #757575;
+    color: var(--text-color-grey);
 }
 
 .contacts-nav a:hover,
 .contacts-nav a:focus{
-    color: #2196F3;
+    color: var(--bt-second);
 }
 
 .block1{
@@ -69,13 +69,13 @@ h2{
     /*text-align: center;*/
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--text-color-white);
 }
 
 .button {
     width: 200px;
     height: 50px;
-    background: #2196F3;
+    background: var(--bt-second);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: bold;
@@ -84,7 +84,7 @@ h2{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--text-color-white);
     }
 
 .features h3{
@@ -92,14 +92,14 @@ h2{
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--text-color-black);
 }
 
 .features p{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color-grey);
 }
 
 .commands h3{
@@ -108,7 +108,7 @@ h2{
     line-height: 19px;
     /*text-align: center;*/
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--text-color-black);
 }
 
 .commands p{
@@ -116,7 +116,7 @@ h2{
     line-height: 19px;
     /*text-align: center;*/
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color-grey);
 }
 
 .page-footer{
@@ -127,7 +127,7 @@ h2{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--text-color-white);
 }
 
 .adress-footer a{
@@ -144,14 +144,14 @@ h2{
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--text-color-black);
 }
 
 .projects p{
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color-grey);
 }
 
 .portfolio-nav a{
@@ -160,13 +160,13 @@ h2{
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--text-color-black);
     background: #F5F4FA;
     border-radius: 4px;
 }
 
 .portfolio-nav a:hover{
-    background: #2196F3;
+    background: var(--bt-second);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: white;
 }
