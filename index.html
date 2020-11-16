@@ -5,38 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
 </head>
-<body>
+<body class="body">
     <!-- Шапка сторінки -->
-    <header>
+    <header class="page-header">
         <nav>
-            <a href="/"><span class="logo">Web</span><span class="logo_span">Studio</span></a>
-            <ul>
+            <a href="/" class="logo">
+                <img src="./images/logo.svg" alt="Логотип">
+            </a>
+            <ul class="site-nav">
                 <li><a href="">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
-        </nav>
-            <ul>
+            <ul class="contacts-nav">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
+        </nav>
     </header>
     <!-- Контент сторінки -->
-    <main>
-       <section>
+    <main class="main">
+       <section class="block1">
            <div>
-            <h1>Эффективные решения <br> для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
-        </div>
+                <h1 class="block1-text">Эффективные решения <br> для вашего бизнеса</h1>
+                <a href="" class="button">Заказать услугу</a>
+            </div>
        </section>
        <section>
            <div>
-               <ul>
-                    <li>
+               <ul class="features">
+                    <li class="feature1">
                         <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                         <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
@@ -68,7 +69,7 @@
         <section>
             <div>
                 <h2>Наша команда</h2>
-                <ul>
+                <ul class="commands">
                     <li>
                         <img src="./images/people01.jpg" alt="Игорь Демьяненко" width="270">
                         <h3>Игорь Демьяненко</h3>
@@ -94,9 +95,11 @@
         </section>
     </main>
     <!-- Підвал сторінки -->
-    <footer>
-        <a href="/"><span>Web</span><span>Studio</span></a>
-        <address>
+    <footer class="page-footer">
+        <a href="/" class="logo-footer">
+            <img src="./images/logo_footer.svg" alt="Логотип">
+        </a>
+        <address class="adress-footer">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
             <ul>
                 <li><a href="mailto:info@example.com">info@example.com</a></li>

@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
 </head>
-<body>
+<body class="body">
     <!--Шапка сторінки-->
-    <header>
+    <header class="page-header">
         <nav>
-            <a href="/"><span class="logo">Web</span><span class="logo_span">Studio</span></a>
-            <ul>
+            <a href="/" class="logo">
+                <img src="./images/logo.svg" alt="Логотип">
+            </a>
+            <ul class="site-nav">
                 <li><a href="/">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="/">Контакты</a></li>
             </ul>
-        </nav>
-            <ul>
+            <ul class="contacts-nav">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
+        </nav>
     </header>
     <!--Контент сторінки-->
     <main>
         <nav>
-            <ul>
+            <ul class="portfolio-nav">
                 <li><a href="">Все</a></li>
                 <li><a href="">Веб-сайты</a></li>
                 <li><a href="">Приложения</a></li>
@@ -36,7 +38,7 @@
             </ul>
         </nav>
         <section>
-            <ul>
+            <ul class="projects">
                 <li>
                     <img src="./images/portfolio/project_01.jpg" alt="project 1" width="370">
                     <h3>Технокряк</h3>
@@ -86,9 +88,11 @@
         </section>
     </main>
     <!--Підвал сторінки-->
-    <footer>
-        <a href="/"><span>Web</span><span>Studio</span></a>
-        <adress>
+    <footer class="page-footer">
+        <a href="/" class="logo-footer">
+            <img src="./images/logo_footer.svg" alt="Логотип">
+        </a>
+        <adress class="adress-footer">
             <p>г. Киев, пр-т Леси Украинки, 26</p>
             <ul>
                 <li><a href="mailto:info@example.com">info@example.com</a></li>
